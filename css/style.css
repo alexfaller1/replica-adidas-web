@@ -13,6 +13,7 @@ a {
 
 body {
     height: 100%;
+    width: 100%;
 }
 
 /* navbar */
@@ -42,7 +43,7 @@ nav {
     list-style: none;
 }
 
-.logo-flex {
+.logo {
     height: 90px;
 }
 
@@ -191,6 +192,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .equipos div h2 {
@@ -255,7 +257,70 @@ nav {
     color: white;
 }
 
-.basket {
-    width: 220px;
-    height: 220px;
+.productos-novedades {
+    margin-bottom: 280px;
+}
+
+.producto {
+    height: 278px;
+    width: 278px;
+    background-image: url(../assets/adidasbasket.avif);
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.cont-producto {
+    padding-right: 20px;
+}
+
+.cont-producto:first-child {
+    padding-left: 20px;
+}
+
+.producto p {
+    align-self: flex-end;
+    background-color: whitesmoke
+}
+
+.p-cont p {
+    margin: 0px;
+}
+.tendencias h2 {font-weight: bolder;
+font-size: 50px;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.productos-novedades {
+    display: flex;
+}
+
+.card-tendencia {
+   
+    height: 400px;
+    width: 300px;
+    margin: 0px 8px;
+}
+.card-tendencia div {
+display: flex;
+flex-direction: column;
+height: 125px;
+justify-content: space-between;
+}
+.card-tendencia img {
+    height: 400px;
+    width: 300px;
+}
+.card-tendencia div a {text-decoration: underline;
+width: 120px;}
+.card-tendencia div a:hover {background-color: black;
+color: white;}
+.card-tendencia div h3 {font-size: 16px;
+font-weight: bold;
+}
+.card-tendencia div p {font-size: 13px;}
+.card-cont {
+    display: flex;
 }
